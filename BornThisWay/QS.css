@@ -1,0 +1,149 @@
+body {
+    background-color: azure;
+    display: flex;
+    flex-direction: column;
+    margin: 0%;
+}
+/*Aqui esta el titulo y el parrafo abajo del titulo*/
+
+/*Este es el contenedor del header principal*/
+.header_principal{
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 250px;
+}
+.titulo_header{
+    background-color: rgb(153, 153, 174);
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 125px;
+    justify-content: center;
+    align-items: center;
+}
+.texto_header{
+    background-color: rgb(169, 134, 134);
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 125px;
+    justify-content: center;
+    align-items: center;
+}
+/*Aqui van nuestros lindos botones*/
+
+/*ESTE ES EL CONTENEDOR DE LOS BOTONES */
+.Botones{
+    background-color: blueviolet;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.izquierda_b{
+    width: 50%;
+    display: flex;
+    justify-content: start;
+    align-items: flex-start;
+}
+.boton_izquierda{
+    width: 60px;
+    height: 50px;
+    justify-content: end;
+}
+.derecha_b{
+    width: 50%;
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+}
+.boton_derecha{
+    width: 60px;
+    height: 50px;
+}
+/*Aqui esta nuestra informacion de contacto*/
+
+/*ESTE ES EL CONTENEDOR DEL MAIN*/
+.Main_principal {
+    background-color: blue;
+    display: flex;
+    width: 100%;
+    height: 420px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/*ESTE ES EL CONTENEDOR DE LA LISTA*/
+.lista_QS {
+    background-color: aqua;
+    display: flex;
+    width: 100%;
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.info_nach {
+    background-color: blueviolet;
+    display: flex;
+    width: 250px;
+    height: 250px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 5px;
+}
+.info_anto {
+    background-color: rgb(43, 217, 226);
+    display: flex;
+    width: 250px;
+    height: 250px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 5px;
+}
+.info_bran {
+    background-color: rgb(43, 226, 76);
+    display: flex;
+    width: 250px;
+    height: 250px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 5px;
+}
+.info_diego {
+    background-color: rgb(43, 226, 226);
+    display: flex;
+    width: 250px;
+    height: 250px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 5px;
+}
+.info_david {
+    background-color: rgb(156, 43, 226);
+    display: flex;
+    width: 250px;
+    height: 250px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 5px;
+}
+.info_origin {
+    background-color: rgb(226, 43, 43);
+    display: flex;
+    width: 250px;
+    height: 250px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 5px;
+}
+
+
